@@ -1,0 +1,35 @@
+{
+  "repository": "everyinfra/everyinfra-data-export-plugin",
+  "visibility": "public",
+  "publicationStatus": "authorized-initial-publication",
+  "plugin": "everyinfra-data-export",
+  "skill": "everyinfra-bulk-data-export",
+  "displayName": "EveryInfra Data Export",
+  "description": "EveryInfra CSV and JSON data-export skill for Codex and Claude Code. Use EveryData MCP with bounded pagination, stable-key deduplication and verified file delivery.",
+  "homepage": "https://everyinfra.com",
+  "topics": [
+    "everyinfra",
+    "agent-plugin",
+    "csv-export",
+    "json-export",
+    "data-export",
+    "pagination",
+    "deduplication",
+    "mcp",
+    "codex",
+    "claude-code",
+    "agent-skills"
+  ],
+  "searchIntent": "Bounded public-data export to CSV or JSON with an AI agent",
+  "readmeTitle": "EveryInfra Data Export — Bounded CSV and JSON exports with pagination and deduplication",
+  "keywordResearch": "Qualitative intent mapping; no search volume, difficulty or ranking estimates.",
+  "transport": "mcp",
+  "version": "0.1.0",
+  "source": {
+    "repository": "everyinfra/everyinfra-agent-plugins",
+    "commit": "78d3fd694244529e5062c51006fc10ef0de9dc87",
+    "path": "plugins/everyinfra/skills/everyinfra-bulk-data-export/SKILL.md",
+    "sha256": "6e1421d61e5bb9556a91fc8c3fdedc383e7a4cac8658a805c1a02f7f73bf4e92"
+  },
+  "definition": "EveryInfra Data Export is a standalone agent skill for bounded CSV and JSON exports using EveryData MCP. It controls row and cost limits, checks pagination progress, deduplicates records and verifies the final file before reporting delivery."
+}

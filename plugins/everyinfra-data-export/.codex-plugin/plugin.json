@@ -1,0 +1,50 @@
+{
+  "name": "everyinfra-data-export",
+  "version": "0.1.0",
+  "description": "EveryInfra CSV and JSON data-export skill for Codex and Claude Code. Use EveryData MCP with bounded pagination, stable-key deduplication and verified file delivery.",
+  "author": {
+    "name": "EveryInfra",
+    "url": "https://everyinfra.com"
+  },
+  "homepage": "https://api.everyinfra.com/docs",
+  "repository": "https://github.com/everyinfra/everyinfra-data-export-plugin",
+  "license": "Apache-2.0",
+  "keywords": [
+    "everyinfra",
+    "agent-plugin",
+    "csv-export",
+    "json-export",
+    "data-export",
+    "pagination",
+    "deduplication",
+    "mcp",
+    "codex",
+    "claude-code",
+    "agent-skills"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "EveryInfra Data Export",
+    "shortDescription": "Bounded CSV and JSON exports with pagination and deduplication",
+    "longDescription": "EveryInfra Data Export is a standalone agent skill for bounded CSV and JSON exports using EveryData MCP. It controls row and cost limits, checks pagination progress, deduplicates records and verifies the final file before reporting delivery. Use it when the user expects a concrete CSV or JSON artifact. The skill instructs the agent to collect and validate that artifact with its available filesystem tools; it does not bundle a general-purpose crawler or a prebuilt export service.",
+    "developerName": "EveryInfra",
+    "category": "Engineering",
+    "capabilities": [
+      "Interactive",
+      "Read",
+      "Write"
+    ],
+    "websiteURL": "https://everyinfra.com",
+    "privacyPolicyURL": "https://everyinfra.com/privacy",
+    "termsOfServiceURL": "https://everyinfra.com/terms",
+    "brandColor": "#287A73",
+    "composerIcon": "./assets/icon.svg",
+    "logo": "./assets/logo.svg",
+    "logoDark": "./assets/logo-dark.svg",
+    "defaultPrompt": [
+      "Plan a CSV export of up to the row limit I specify. Inspect supported fields, pagination and estimated calls before collecting data.",
+      "Export the approved records as JSON, preserving nested fields. Stop on a repeated cursor and report the partial result.",
+      "Check the resulting CSV for stable headers, duplicate keys and actual row count. Do not say the export is complete unless the file parses."
+    ]
+  }
+}

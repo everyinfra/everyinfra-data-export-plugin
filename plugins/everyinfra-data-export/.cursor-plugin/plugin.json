@@ -1,0 +1,27 @@
+{
+  "name": "everyinfra-data-export",
+  "version": "0.1.0",
+  "description": "EveryInfra CSV and JSON data-export skill for Codex and Claude Code. Use EveryData MCP with bounded pagination, stable-key deduplication and verified file delivery.",
+  "author": {
+    "name": "EveryInfra",
+    "url": "https://everyinfra.com"
+  },
+  "homepage": "https://api.everyinfra.com/docs",
+  "repository": "https://github.com/everyinfra/everyinfra-data-export-plugin",
+  "license": "Apache-2.0",
+  "keywords": [
+    "everyinfra",
+    "agent-plugin",
+    "csv-export",
+    "json-export",
+    "data-export",
+    "pagination",
+    "deduplication",
+    "mcp",
+    "codex",
+    "claude-code",
+    "agent-skills"
+  ],
+  "displayName": "EveryInfra Data Export",
+  "skills": "./skills/"
+}

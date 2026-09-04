@@ -1,0 +1,13 @@
+{
+  "name": "everyinfra-data-export-plugin",
+  "owner": {
+    "name": "EveryInfra"
+  },
+  "plugins": [
+    {
+      "name": "everyinfra-data-export",
+      "source": "./plugins/everyinfra-data-export",
+      "description": "EveryInfra CSV and JSON data-export skill for Codex and Claude Code. Use EveryData MCP with bounded pagination, stable-key deduplication and verified file delivery."
+    }
+  ]
+}

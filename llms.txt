@@ -1,0 +1,16 @@
+# EveryInfra Data Export
+
+> EveryInfra Data Export is a standalone agent skill for bounded CSV and JSON exports using EveryData MCP. It controls row and cost limits, checks pagination progress, deduplicates records and verifies the final file before reporting delivery.
+
+This is a documentation navigation index, not a ranking or model-ingestion guarantee.
+
+## Documentation
+
+- [Overview](README.md): use cases, limits and FAQ.
+- [简体中文](README.zh-CN.md): Chinese introduction and safe starting point.
+- [Setup](docs/setup.md): host installation and service prerequisites.
+- [Workflow](docs/workflow.md): execution and acceptance criteria.
+- [Prompts](examples/prompts.md): illustrative bounded requests.
+- [Security](SECURITY.md): permissions and secret handling.
+
+- [Capability reference](docs/reference.md): identity, scope, prerequisites and evidence sources.

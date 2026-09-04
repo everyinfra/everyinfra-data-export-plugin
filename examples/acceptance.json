@@ -1,0 +1,23 @@
+[
+  {
+    "prompt": "Plan a CSV export of up to the row limit I specify. Inspect supported fields, pagination and estimated calls before collecting data.",
+    "must_preserve_scope": true,
+    "must_discover_contract": true,
+    "must_not_infer_permission": true,
+    "example_type": "illustrative-not-live"
+  },
+  {
+    "prompt": "Export the approved records as JSON, preserving nested fields. Stop on a repeated cursor and report the partial result.",
+    "must_preserve_scope": true,
+    "must_discover_contract": true,
+    "must_not_infer_permission": true,
+    "example_type": "illustrative-not-live"
+  },
+  {
+    "prompt": "Check the resulting CSV for stable headers, duplicate keys and actual row count. Do not say the export is complete unless the file parses.",
+    "must_preserve_scope": true,
+    "must_discover_contract": true,
+    "must_not_infer_permission": true,
+    "example_type": "illustrative-not-live"
+  }
+]

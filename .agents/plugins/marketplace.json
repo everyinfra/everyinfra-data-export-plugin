@@ -1,0 +1,20 @@
+{
+  "name": "everyinfra-data-export-plugin",
+  "interface": {
+    "displayName": "Everyinfra Data Export Plugin"
+  },
+  "plugins": [
+    {
+      "name": "everyinfra-data-export",
+      "source": {
+        "source": "local",
+        "path": "./plugins/everyinfra-data-export"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    }
+  ]
+}
