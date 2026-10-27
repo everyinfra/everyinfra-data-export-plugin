@@ -1,5 +1,8 @@
 # EveryInfra Data Export：有边界的 CSV 与 JSON 导出
 
+<!-- rq223-banner -->
+<p align="center"><img alt="EveryInfra Data Export：有边界的 CSV 与 JSON 导出，分页去重" src="assets/banner-zh.jpg" width="100%"></p>
+
 <p align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="assets/hero-dark.svg">
